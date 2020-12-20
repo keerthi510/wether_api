@@ -1,0 +1,8 @@
+# Change config's according to respective environment
+api:
+  url: "http://api.openweathermap.org/data/2.5/weather?"
+  forecastUrl: "https://api.openweathermap.org/data/2.5/onecall?exclude=current,minutely,hourly,alerts"
+  appId: "1508a9a4840a5574c822d70ca2132032"
+app:
+  host: 0.0.0.0
+  port: 8080
